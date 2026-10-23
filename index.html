@@ -1,177 +1,258 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <meta charset="UTF-8">
+
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <div class="a4-page">
-            <div class="header">
-                <header>
-                    <h1>Reuben Burton</h1>
-                    <p>Programmer</p>
-                </header>
-            </div>
+        <div class="button-container">
+            <button onclick="GeneratePDF()"><img src="./assets/images/download.png" alt="Download" width="48px" height="48px"><br/>Download PDF</button>
+        </div>
 
-            <div class="side">
-                <section id="contact">
-                    <header>
-                        <h2>Contact</h2>
-                    </header>
-
-                    <span><i class="material-icons">phone</i><p>07981 919422</p></span>
-                    <a href="mail:to:reubenburton123@gmail.com"><span><i class="material-icons">mail_outline</i><p>reubenburton123<wbr/>@gmail.com</p></span></a>
-                    <a href="https://www.reubenhburton.com" target="_blank"><span><i class="material-icons">open_in_new</i><p>reubenhburton.com</p></span></a>
-                    <span><i class="material-icons">location_on</i><p>26 Allestree Lane, Allestree, Derby, DE22 2HR</p></span>
-                </section>
-                
-                <section id="skills">
-                    <header>
-                        <h2>Skills</h2>
-                    </header>
-
-                    <ul>
-                        <li>
-                            <h4>Programming</h4>
-                            <ul>
-                                <li>C++</li>
-                                <li>C#</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                            </ul>
-                        </li>
-                        
-                        <li>
-                            <h4>Game Engines</h4>
-                            <ul>
-                                <li>Unreal Engine 5</li>
-                                <li>Unity</li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <h4>Version Control</h4>
-                            <ul>
-                                <li>Git</li>
-                                <li>Git-Bash</li>
-                                <li>GitHub</li>
-                            </ul>
-                        </li>
-
-                        <li>Agile (Scrum, Kanban)</li>
-                        <li>Microsoft Office Suite</li>
-                        <li>Customer Service</li>
-                    </ul>
-                </section>
-
-                <section id="interests">
-                    <header>
-                        <h2>Interests</h2>
-                    </header>
-
-                    <ul>
-                        <li>
-                            <h4>Music</h4>
-                            <ul>
-                                <li>Guitar</li>
-                                <li>Keyboard</li>
-                            </ul>
-                        </li>
-
-                        <li>Swimming</li>
-                        <li>Body Surfing</li>
-                        <li>Programming</li>
-                        <li>Game Development</li>
-                        <li>Crochet</li>
-                        <li>Cooking</li>
-                    </ul>
-                </section>
-            </div>
-
-            <div class="main">
-                <main>
-                    <section id="experience">
+        <div class="page-container">
+            <div class="page-shadow">
+                <div class="a4-page">
+                    <div class="header">
                         <header>
-                            <h2>Experience</h2>
+                            <h1>Reuben Burton</h1>
+                            <p>Programmer</p>
                         </header>
+                    </div>
 
-                        <section class="experience">
-                            <h3>Gameplay Programmer (University Project)</h3>
-                            <p>Wraithless Studios&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>September 2025 - May 2026</span></p>
-                            <ul>
-                                <li>Collaborating effectively with other programmers.</li>
-                                <li>Communicating clearly with others with different roles and skillsets.</li>
-                                <li>Solving disputes among studio members.</li>
-                            </ul>
+                    <div class="side">
+                        <section id="contact">
+                            <header>
+                                <h2>Contact</h2>
+                            </header>
+
+                            <span><img src="./assets/images/phone.png" alt="Phone" width="24px" height="24px"><p>07981 919422</p></span>
+                            <a href="mail:to:reubenburton123@gmail.com"><span><img src="./assets/images/mail.png" alt="Email" width="24px" height="24px"><p>reubenburton123<wbr/>@gmail.com</p></span></a>
+                            <a href="https://www.reubenhburton.com" target="_blank"><span><img src="./assets/images/external-link.png" alt="Website" width="24px" height="24px"><p>reubenhburton.com</p></span></a>
+                            <span><img src="./assets/images/home.png" alt="Address" width="24px" height="24px"><p>26 Allestree Lane, Allestree, Derby, DE22 2HR</p></span>
                         </section>
                         
-                        <section class="experience">
-                            <h3>Volunteer Cashier</h3>
-                            <p>Tanya's Courage Trust Penryn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>June - September 2025</span></p>
+                        <section id="skills">
+                            <header>
+                                <h2>Skills</h2>
+                            </header>
+
                             <ul>
-                                <li>Completing transactions with an EPOS system.</li>
-                                <li>Being the first point of contact for customers' concerns.</li>
-                                <li>Making customers feel welcome and respected.</li>
-                                <li>Visual merchandising in line with company standards.</li>
-                                <li>Working with managers to ensure empty shelves are filled promptly.</li>
-                                <li>Helping organise and execute promotions.</li>
+                                <li>
+                                    <h4>Programming</h4>
+                                    <ul>
+                                        <li>C++</li>
+                                        <li>C#</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                </li>
+                                
+                                <li>
+                                    <h4>Game Engines</h4>
+                                    <ul>
+                                        <li>Unreal Engine 5</li>
+                                        <li>Unity</li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <h4>Version Control</h4>
+                                    <ul>
+                                        <li>Git</li>
+                                        <li>Git-Bash</li>
+                                        <li>GitHub</li>
+                                    </ul>
+                                </li>
+
+                                <li>Agile (Scrum, Kanban)</li>
+                                <li>Microsoft Office Suite</li>
+                                <li>Customer Service</li>
                             </ul>
                         </section>
 
-                        <section class="experience">
-                            <h3>Volunteer</h3>
-                            <p>Ross-On-Wye Cider Festival&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>August 2025 & September 2026</span></p>
+                        <section id="interests">
+                            <header>
+                                <h2>Interests</h2>
+                            </header>
+
                             <ul>
-                                <li>Setting up and taking down festival equipment.</li>
-                                <li>Directing and escorting public and commercial vehicles.</li>
+                                <li>
+                                    <h4>Music</h4>
+                                    <ul>
+                                        <li>Guitar</li>
+                                        <li>Keyboard</li>
+                                    </ul>
+                                </li>
+
+                                <li>Swimming</li>
+                                <li>Body Surfing</li>
+                                <li>Programming</li>
+                                <li>Game Development</li>
+                                <li>Crochet</li>
+                                <li>Cooking</li>
                             </ul>
                         </section>
-                    </section>
+                    </div>
 
-                    <section id="education">
-                        <header>
-                            <h2>Education</h2>
-                        </header>
-                        <ul>
-                            <li>
-                                <section class="education">
-                                    <span><h4>BA (Hons):</h4> <p>Game Development: Programming - 2:1</p></span>
-                                    <p>Falmouth University</p>
-                                    <p>Falmouth, 2023 - 2026</p>
-                                </section>
-                            </li>
-                            <li>
-                                <section class="education">
-                                    <span><h4>3 A-Levels:</h4> <p>Physics - A, Maths - B, Computer Science - B</p></span>
-                                    <p>Allestree Woodlands School</p>
-                                    <p>Derby, 2021 - 2023</p>
-                                </section>
-                            </li>
-                            <li>
-                                <section class="education">
-                                    <span><h4>Keyboard:</h4> <p>Grades 1 - 6</p></span>
-                                    <p>Yamaha Music School</p>
-                                    <p>Derby, 2014 - 2023</p>
-                                </section>
-                            </li>
-                            <li>
-                                <section class="education">
-                                    <span><h4>10 GCSEs:</h4> <p>Grades 6 - 9</p></span>
-                                    <p>Allestree Woodlands School</p>
-                                    <p>Derby, 2019 - 2021</p>
-                                </section>
-                            </li>
-                        </ul>
+                    <div class="main">
+                        <main>
+                            <section id="experience">
+                                <header>
+                                    <h2>Experience</h2>
+                                </header>
 
-                        <h3>Extracurricular</h3>
-                        <ul>
-                            <li>Annual Yamaha Music School concerts at Derby Theatre.</li>
-                            <li>Mental health first aid training.</li>
-                        </ul>
-                    </section>
-                </main>
+                                <section class="experience">
+                                    <h3>Gameplay Programmer (University Project)</h3>
+                                    <p>Wraithless Studios&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>September 2025 - May 2026</span></p>
+                                    <ul>
+                                        <li>Collaborating effectively with other programmers.</li>
+                                        <li>Communicating clearly with others with different roles and skillsets.</li>
+                                        <li>Solving disputes among studio members.</li>
+                                    </ul>
+                                </section>
+                                
+                                <section class="experience">
+                                    <h3>Volunteer Cashier</h3>
+                                    <p>Tanya's Courage Trust Penryn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>June - September 2025</span></p>
+                                    <ul>
+                                        <li>Completing transactions with an EPOS system.</li>
+                                        <li>Being the first point of contact for customers' concerns.</li>
+                                        <li>Making customers feel welcome and respected.</li>
+                                        <li>Visual merchandising in line with company standards.</li>
+                                        <li>Working with managers to ensure empty shelves are filled promptly.</li>
+                                        <li>Helping organise and execute promotions.</li>
+                                    </ul>
+                                </section>
+
+                                <section class="experience">
+                                    <h3>Volunteer</h3>
+                                    <p>Ross-On-Wye Cider Festival&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>August 2025 & September 2026</span></p>
+                                    <ul>
+                                        <li>Setting up and taking down festival equipment.</li>
+                                        <li>Directing and escorting public and commercial vehicles.</li>
+                                    </ul>
+                                </section>
+                            </section>
+
+                            <section id="education">
+                                <header>
+                                    <h2>Education</h2>
+                                </header>
+                                <ul>
+                                    <li>
+                                        <section class="education">
+                                            <span><h4>BA (Hons):</h4> <p>Game Development: Programming - 2:1</p></span>
+                                            <p>Falmouth University</p>
+                                            <p>Falmouth, 2023 - 2026</p>
+                                        </section>
+                                    </li>
+                                    <li>
+                                        <section class="education">
+                                            <span><h4>3 A-Levels:</h4> <p>Physics - A, Maths - B, Computer Science - B</p></span>
+                                            <p>Allestree Woodlands School</p>
+                                            <p>Derby, 2021 - 2023</p>
+                                        </section>
+                                    </li>
+                                    <li>
+                                        <section class="education">
+                                            <span><h4>Keyboard:</h4> <p>Grades 1 - 6</p></span>
+                                            <p>Yamaha Music School</p>
+                                            <p>Derby, 2014 - 2023</p>
+                                        </section>
+                                    </li>
+                                    <li>
+                                        <section class="education">
+                                            <span><h4>10 GCSEs:</h4> <p>Grades 6 - 9</p></span>
+                                            <p>Allestree Woodlands School</p>
+                                            <p>Derby, 2019 - 2021</p>
+                                        </section>
+                                    </li>
+                                </ul>
+
+                                <h3>Extracurricular</h3>
+                                <ul>
+                                    <li>Annual Yamaha Music School concerts at Derby Theatre.</li>
+                                    <li>Mental health first aid training.</li>
+                                </ul>
+                            </section>
+                        </main>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas-next/1.8.0/html2canvas.min.js"></script>
+        <script>
+            async function GeneratePDF(){
+                const {jsPDF} = window.jspdf;
+                const {html2canvas} = window.html2canvas;
+
+                const doc = new jsPDF({
+                    unit: 'px',
+                    format: 'a4',
+                    orientation: 'portrait',
+                    hotfixes: ['px_scaling']
+                });
+
+                const element = document.querySelector('.a4-page');
+                element.classList.add('downloading');
+
+                doc.addFont('./assets/fonts/Helvetica.ttf', 'Helvetica', 'normal', 'normal');
+                doc.addFont('./assets/fonts/Helvetica-Bold.ttf', 'Helvetica', 'normal', 'bold');
+                doc.addFont('./assets/fonts/Helvetica-Oblique.ttf', 'Helvetica', 'italic', 'normal');
+                
+                await doc.html(element, {
+                    html2canvas: {
+                        scale: 1,
+                        useCORS: true
+                    },
+                    callback: function (doc) {
+                        doc.save('Reuben_Burton_CV.pdf');
+                        document.querySelector('.downloading').classList.remove('downloading');
+                    },
+                    fontFaces: [
+                        {
+                            family: 'Helvetica',
+                            style: 'normal',
+                            weight: 'normal',
+                            src: [
+                                {
+                                    url: "./assets/fonts/Helvetica.ttf",
+                                    format: "truetype"
+                                }
+                            ]
+                        },
+                        {
+                            family: 'Helvetica',
+                            style: 'normal',
+                            weight: 'bold',
+                            src: [
+                                {
+                                    url: "./assets/fonts/Helvetica-Bold.ttf",
+                                    format: "truetype"
+                                }
+                            ]
+                        },
+                        {
+                            family: 'Helvetica',
+                            style: 'italic',
+                            weight: 'normal',
+                            src: [
+                                {
+                                    url: "./assets/fonts/Helvetica-Oblique.ttf",
+                                    format: "truetype"
+                                }
+                            ]
+                        }
+                    ]
+                });
+            }
+        </script>
+        <footer>
+            <small>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></small>
+        </footer>
     </body>
 </html>
