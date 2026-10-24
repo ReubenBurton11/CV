@@ -78,9 +78,9 @@ body {
                          'side   main';
     grid-template-columns: 60mm auto;
     grid-template-rows: 26mm auto;
-    width: 198mm;
-    height: 284mm;
-    padding: 6mm;
+    width: 200mm;
+    height: 286mm;
+    padding: 5mm;
     overflow: hidden;
     background-color: #ffffff;
 
