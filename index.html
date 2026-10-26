@@ -4,14 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <link rel="stylesheet" href="../cv/styles.css">
-        <link rel="icon" href="../cv/assets/icons/r-icon.ico">
+        <base href="../CV/" target="_self">
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="assets/icons/r-icon.ico">
 
         <title>CV | Reuben Burton</title>
     </head>
     <body>
         <div class="button-container">
-            <button onclick="GeneratePDF()"><img src="../cv/assets/images/download.png" alt="Download" width="48px" height="48px"><br/>Download PDF</button>
+            <button onclick="GeneratePDF()"><img src="assets/images/download.png" alt="Download" width="48px" height="48px"><br/>Download PDF</button>
         </div>
 
         <div class="page-container">
@@ -30,10 +32,10 @@
                                 <h2>Contact</h2>
                             </header>
 
-                            <span><img src="../cv/assets/images/phone.png" alt="Phone" width="24px" height="24px"><p>07981 919422</p></span>
-                            <a href="mail:to:reubenburton123@gmail.com"><span><img src="../cv/assets/images/mail.png" alt="Email" width="24px" height="24px"><p>reubenburton123<wbr/>@gmail.com</p></span></a>
-                            <a href="https://www.reubenhburton.com" target="_blank"><span><img src="../cv/assets/images/external-link.png" alt="Website" width="24px" height="24px"><p>reubenhburton.com</p></span></a>
-                            <span><img src="../cv/assets/images/home.png" alt="Address" width="24px" height="24px"><p>26 Allestree Lane, Allestree, Derby, DE22 2HR</p></span>
+                            <span><img src="assets/images/phone.png" alt="Phone" width="24px" height="24px"><p>07981 919422</p></span>
+                            <a href="mail:to:reubenburton123@gmail.com"><span><img src="assets/images/mail.png" alt="Email" width="24px" height="24px"><p>reubenburton123<wbr/>@gmail.com</p></span></a>
+                            <a href="https://www.reubenhburton.com" target="_blank"><span><img src="assets/images/external-link.png" alt="Website" width="24px" height="24px"><p>reubenhburton.com</p></span></a>
+                            <span><img src="assets/images/home.png" alt="Address" width="24px" height="24px"><p>26 Allestree Lane, Allestree, Derby, DE22 2HR</p></span>
                         </section>
                         
                         <section id="skills">
@@ -218,9 +220,9 @@
                 const element = document.querySelector('.a4-page');
                 element.classList.add('downloading');
 
-                doc.addFont('../cv/assets/fonts/Helvetica.ttf', 'Helvetica', 'normal', 'normal');
-                doc.addFont('../cv/assets/fonts/Helvetica-Bold.ttf', 'Helvetica', 'normal', 'bold');
-                doc.addFont('../cv/assets/fonts/Helvetica-Oblique.ttf', 'Helvetica', 'italic', 'normal');
+                doc.addFont('assets/fonts/Helvetica.ttf', 'Helvetica', 'normal', 'normal');
+                doc.addFont('assets/fonts/Helvetica-Bold.ttf', 'Helvetica', 'normal', 'bold');
+                doc.addFont('assets/fonts/Helvetica-Oblique.ttf', 'Helvetica', 'italic', 'normal');
                 
                 await doc.html(element, {
                     html2canvas: {
@@ -238,7 +240,7 @@
                             weight: 'normal',
                             src: [
                                 {
-                                    url: "../cv/assets/fonts/Helvetica.ttf",
+                                    url: "assets/fonts/Helvetica.ttf",
                                     format: "truetype"
                                 }
                             ]
@@ -249,7 +251,7 @@
                             weight: 'bold',
                             src: [
                                 {
-                                    url: "../cv/assets/fonts/Helvetica-Bold.ttf",
+                                    url: "assets/fonts/Helvetica-Bold.ttf",
                                     format: "truetype"
                                 }
                             ]
@@ -260,7 +262,7 @@
                             weight: 'normal',
                             src: [
                                 {
-                                    url: "../cv/assets/fonts/Helvetica-Oblique.ttf",
+                                    url: "assets/fonts/Helvetica-Oblique.ttf",
                                     format: "truetype"
                                 }
                             ]
